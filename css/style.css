@@ -52,6 +52,11 @@ body{
     padding:10px;
 }
 /*Sidelist*/
+.playlist_container{
+    background-color: rgb(223, 223, 231);
+    max-height: 730px;
+    overflow-y: scroll;
+}
 .side_list{
     border-color: black;
     border-width: 1px; 
@@ -97,29 +102,55 @@ body{
 .song_info p {
     margin:0;
 }
+
 /* Main*/
 .main {
     width:100%;
-
-
 }
 /*Search Bar*/
+#search_form{
+    margin: 0;
+}
 .search_bar{
     text-align: center;
-}
 
+}
 .search_bar input{
     width: 70%;
     margin: auto;
     text-align: center;
 }
 .search{
-    height: 4%;
+    height: 5%;
     border-radius: 5px;
     border-width: 1px;
     font-size: 140%;
 }
+.result_box{
+    background-color: rgb(125, 125, 145);
+    margin: auto;
+    max-height: 300px;
+    width: 44.8%;
+    margin-left: 7.5%;
+    position: absolute;
+    text-align: left;
+    font-size: 30px;
 
+}
+.result_box ul{
+    border-top: 1px solid #999;
+    padding: 15px 10px;
+    margin: 0;
+}
+.result_box ul li{
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+.result_box ul li:hover{
+    background: rgba(236, 166, 34, 0.705);
+}
 .title{
     font-family: Bowlby One SC; 
     padding-left: 12%;
@@ -208,3 +239,15 @@ body{
 
     
 }
+/*add*/
+.add{
+    background-color: green;
+    border-radius: 6px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
