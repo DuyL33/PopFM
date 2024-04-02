@@ -1,0 +1,44 @@
+[
+    {
+      "title": "Morning Mix",
+      "author": "John Doe",
+      "time_slot": "2024-04-01T08:00:00.000Z",
+      "songs": [
+        "660b0b21891e75e7994e0ac2",
+        "660b0b5b248c3b7e6078ee31",
+        "660b0b5b248c3b7e6078ee34",
+        "660b0b5b248c3b7e6078ee37",
+        "660b0b5b248c3b7e6078ee3a",
+        "660b0b5b248c3b7e6078ee3d",
+        "660b0b5b248c3b7e6078ee40",
+        "660b0b5b248c3b7e6078ee43",
+        "660b0b5b248c3b7e6078ee46",
+        "660b0b5b248c3b7e6078ee49",
+        "660b0b5b248c3b7e6078ee4c",
+        "660b0b5b248c3b7e6078ee2f",
+        "660b0b5b248c3b7e6078ee32",
+        "660b0b5b248c3b7e6078ee35",
+        "660b0b5b248c3b7e6078ee38",
+        "660b0b5b248c3b7e6078ee3b",
+        "660b0b5b248c3b7e6078ee3e"
+      ]
+    },
+    {
+      "title": "Afternoon Beats",
+      "author": "Jane Smith",
+      "time_slot": "2024-04-01T13:00:00.000Z",
+      "songs": [
+        "660b0b5b248c3b7e6078ee30",
+        "660b0b5b248c3b7e6078ee33",
+        "660b0b5b248c3b7e6078ee36",
+        "660b0b5b248c3b7e6078ee39",
+        "660b0b5b248c3b7e6078ee3c",
+        "660b0b5b248c3b7e6078ee3f",
+        "660b0b5b248c3b7e6078ee45",
+        "660b0b5b248c3b7e6078ee4b",
+        "660b0b5b248c3b7e6078ee4d"
+      ]
+    }
+
+  ]
+  
