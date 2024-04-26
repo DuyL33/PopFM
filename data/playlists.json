@@ -2,7 +2,7 @@
     {
       "title": "Morning Mix",
       "author": "John Doe",
-      "time_slot": "2024-04-01T08:00:00.000Z",
+      "time_slot": "1",
       "songs": [
         "660b0b21891e75e7994e0ac2",
         "660b0b5b248c3b7e6078ee31",
@@ -26,7 +26,7 @@
     {
       "title": "Afternoon Beats",
       "author": "Jane Smith",
-      "time_slot": "2024-04-01T13:00:00.000Z",
+      "time_slot": "2",
       "songs": [
         "660b0b5b248c3b7e6078ee30",
         "660b0b5b248c3b7e6078ee33",

@@ -26,20 +26,17 @@ body{
 }
 
 
-.navbar{
-    background-color: black;
-    color:white;
-    width: 100%;
-    height: 5%;
-}
 .navbar ul li.logo {
-    
     float: left;
     padding-left: 5%;
     font-size: 40px;
 }
-
-
+.navbar{
+    background-color:black;
+    color:white;
+    width: 100%;
+    height: 10%;
+}
 /*Island*/
 
 .island {

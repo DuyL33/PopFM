@@ -1,23 +1,37 @@
-// // Adding song to current playlist.
-// import { displayPlaylist } from './displayPlaylist.js';
-// export function addSongToPlaylist(song, currentPlaylist) {
-//     // Add song to the current playlist
-//     currentPlaylist.list.push(song);
-//     displayPlaylist(currentPlaylist);
-// }
-
 import { displayPlaylist } from './displayPlaylist.js';
 
-export function addSongToPlaylist(song, currentPlaylist) {
-    // Create a new song object
-    const newSong = {
-        title: song.title,
-        artist: song.artist
-    };
+export async function addSongToPlaylist(song, currentPlaylist) {
+    try {
+        // Create a new song object with the song details
+        const newSong = {
+            title: song.title,
+            artist: song.artist
+        };
 
-    // Add the new song to the current playlist's songs array
-    currentPlaylist.songs.push(newSong);
+        // Send a POST request to add the new song to the playlist
+        const response = await fetch(`/api/playlists/${currentPlaylist.time_slot}`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(newSong)
+        });
 
-    // Call displayPlaylist to update the displayed playlist
-    displayPlaylist(currentPlaylist);
+        if (!response.ok) {
+            throw new Error('Failed to add song to playlist');
+        }
+
+        // Get the response JSON
+        const data = await response.json();
+        console.log("data", data.playlist);
+
+        displayPlaylist(data.playlist);
+
+        //return data.playlist;
+        
+    } catch (error) {
+        console.error('Error adding song to playlist:', error);
+    }
 }
+
+
