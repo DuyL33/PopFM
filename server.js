@@ -35,7 +35,11 @@ console.log(`Server is running on port ${PORT}`);
 });
 
 
-mongoose.connect('mongodb+srv://lduyviet999:Anhem123@cluster0.ppcqqnj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/popfm', {
+//mongoose.connect('mongodb+srv://lduyviet999:Anhem123@cluster0.ppcqqnj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/popfm'
+
+
+
+mongoose.connect('mongodb+srv://new_user:Z0v4rz23993@mycluster.xazafns.mongodb.net/Ptran_Database', {
 useNewUrlParser: true,
 useUnifiedTopology: true
 })

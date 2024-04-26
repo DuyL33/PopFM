@@ -152,7 +152,7 @@ document.addEventListener("DOMContentLoaded", function() {
             // Send an HTTP request to the logout endpoint
             const response = await fetch('/logout', {
                 method: 'GET',
-                credentials: 'same-origin' // Ensure cookies are sent with the request
+                credentials: 'same-origin'
             });
     
             if (response.ok) {
